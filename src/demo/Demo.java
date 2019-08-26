@@ -118,6 +118,7 @@ public class Demo extends JPanel {
 			break;
 		case GAME_OVER:
 			g.drawImage(gameover, 0, 0, null);
+			g.drawString("Time: " + counttime / 3000 + "m " + counttime / 100 % 60 + "s", 120 , 375);
 			break;
 		}
 	}
