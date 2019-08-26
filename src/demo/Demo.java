@@ -103,7 +103,7 @@ public class Demo extends JPanel {
 		Font font = new Font(Font.MONOSPACED, Font.BOLD, 25); // 字型
 		g.setColor(new Color(0xFFFFFF)); // 顏色
 		g.setFont(font); // 設定字型
-		g.drawString("Time: " + counttime / 3000 + "m " + counttime / 100 % 60 + "s", x, y);
+		g.drawString("T!me: " + counttime / 3000 + "m " + counttime / 100 % 60 + "s", x, y);
 		g.drawString("Life: " + hero.getLife(), x, y + 25);
 	}
 
