@@ -104,7 +104,7 @@ public class Demo extends JPanel {
 		g.setColor(new Color(0xFFFFFF)); // 顏色
 		g.setFont(font); // 設定字型
 		g.drawString("Time: " + counttime / 3000 + "m " + counttime / 100 % 60 + "s", x, y);
-		g.drawString("Life: " + hero.getLife(), x, y + 25);
+		g.drawString("Mario's Life: " + hero.getLife(), x, y + 25);
 	}
 
 	// 依照遊戲狀態去變換介面
