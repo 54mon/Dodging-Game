@@ -7,13 +7,14 @@
 User control it to avoid enemy.
 
 - Enemy : ![Enemy1](https://imgur.com/b6PlIfr.png)
+If player hits enemy, player's life will be decreased by one.
 
 
 - Spaceman : ![Spaceman](https://imgur.com/y1Yrxcr.png)
-It's Not Aggressive, just a  
+It's Not Aggressive, just a Passerby.
 
 - Blood : ![Blood](https://imgur.com/JagrhS3.png)
-
+If player hits blood, player's life will be increased by one.
 
 
 
