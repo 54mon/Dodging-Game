@@ -1,4 +1,4 @@
-package demo;
+package flyingObject;
 
 import java.awt.image.BufferedImage;
 

@@ -1,6 +1,9 @@
-package demo;
+package flyingObject;
 
 import java.util.Random;
+
+import demo.Demo;
+import demo.GameState;
 
 public class Spaceman extends FlyingObject{
 	private int xSpeed = 2;   
@@ -12,17 +15,17 @@ public class Spaceman extends FlyingObject{
 		height = image.getHeight();
 		Random rand = new Random();
 		y = -height;
-		x = rand.nextInt(Demo.WIDTH - width);
+		x = rand.nextInt(GameState.WIDTH - width);
 	}
 	
 	public boolean isAlive() {
-		return y>Demo.HEIGHT;
+		return y>GameState.HEIGHT;
 	}
 
 	public void step() {      
 		x += xSpeed;
 		y += ySpeed;
-		if(x > Demo.WIDTH-width){  
+		if(x > GameState.WIDTH-width){  
 			xSpeed = -1;
 		}
 		if(x < 0){

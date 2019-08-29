@@ -1,4 +1,6 @@
-package demo;
+package flyingObject;
+
+import demo.Demo;
 
 public class Hero extends FlyingObject{
 	private int life; // 命
@@ -18,7 +20,7 @@ public class Hero extends FlyingObject{
 
 	@Override
 	public void step() {
-		return;
+		return; // 因為玩家由滑鼠控制
 	}
 	
 	/** 當前物體移動了一下，相對距離，x,y滑鼠位置 */ 
