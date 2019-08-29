@@ -104,7 +104,7 @@ public class Demo extends JPanel {
 		Font font = new Font(Font.MONOSPACED, Font.BOLD, 25); // 字型
 		g.setColor(new Color(0xFFFFFF)); // 顏色
 		g.setFont(font); // 設定字型
-		g.drawString("Time: " + counttime / 3000 + "m " + counttime / 100 % 60 + "s", x, y);
+		g.drawString("Time: " + counttime / 6000 + "m " + counttime / 100 % 60 + "s", x, y);
 		g.drawString("Life: " + hero.getLife(), x, y + 25);
 	}
 
@@ -119,7 +119,7 @@ public class Demo extends JPanel {
 			break;
 		case GameState.GAME_OVER:
 			g.drawImage(gameover, 0, 0, null);
-			g.drawString("Time: " + counttime / 3000 + "m " + counttime / 100 % 60 + "s", 120, 295);
+			g.drawString("Time: " + counttime / 6000 + "m " + counttime / 100 % 60 + "s", 120, 295);
 			g.drawString("PRESS TO RESTART", 84, 375);
 			break;
 		}
@@ -160,7 +160,7 @@ public class Demo extends JPanel {
 			@Override
 			public void mouseExited(MouseEvent e) { // 滑鼠離開遊戲視窗內
 				if (gs.getState() == GameState.RUNNING) { // 更新遊戲狀態
-					gs.setState(GameState.RUNNING);
+					gs.setState(GameState.PAUSE);
 				}
 			}
 
