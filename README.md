@@ -1,24 +1,31 @@
 # Dodging-Game
-###### Java project developed in Coding X 
+Java project developed in Coding X
 
 ## Description:
+- Stand-alone version of the Windows game
+- Only one person can play at a time
+- The goal of the player is to survive as long as possible
 
-- Player : ![player](https://imgur.com/sQEbNVX.png)
+## Game Characters
+### Player(User)
+![player](https://imgur.com/sQEbNVX.png)
 
-User control it to avoid enemy.
+-> User control it by moving mouse to avoid enemy.
 
-- Enemy : ![Enemy1](https://imgur.com/b6PlIfr.png)
+### Enemy
+![Enemy1](https://imgur.com/b6PlIfr.png)
 
-If player hits enemy, player's life will be decreased by one.
+-> Player's life will be decreased by one if get hit by this enemy.
 
+### Spaceman
+![Spaceman](https://imgur.com/y1Yrxcr.png)
 
-- Spaceman : ![Spaceman](https://imgur.com/y1Yrxcr.png)
+-> No lethality, just a pass by object for distracting user.
 
-It's Not Aggressive, just a Passerby.
+### Life
+![Blood](https://imgur.com/JagrhS3.png)
 
-- Blood : ![Blood](https://imgur.com/JagrhS3.png)
-
-If player hits blood, player's life will be increased by one.
+-> Player's life will be increased by one if player touch blood. 
 
 
 
